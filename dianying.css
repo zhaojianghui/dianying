@@ -1,0 +1,108 @@
+html,body,img,p,div{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 540px;
+	border: 1px solid #ccc;
+	margin: 100px auto;
+}
+.type,.load,.year{
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+}
+.type .type-item,.load .load-item,.year .year-item{
+	padding: 5px;
+	font-size: 12px;
+	color: rgb(0,0,204);
+}
+.type .type-item.first,.load .load-item.first,.year .year-item.first{
+	color: rgb(153,153,153);
+}
+.type .type-item.active,.load .load-item.active,.year .year-item.active{
+	background: rgb(56,139,255);
+	color: white;
+}
+.title{
+	width: 530px;
+	height: 30px;
+	line-height: 30px;
+	background:rgb(250,250,250);
+	margin: 10px 5px 0; 
+	font-size: 12px;
+	color: rgb(102,102,102);
+	border-bottom: 1px solid #ccc; 
+}
+.title .title-item{
+	  float: left;
+	  display:block; 
+	  height: 28px;
+	  line-height: 28px;
+	  padding: 0px 10px;
+	  border-style: solid;
+	  border-width: 2px 1px 1px;
+	  border-color: transparent;
+	  margin-bottom: -1px;
+  
+}
+.title .title-item.active{
+	color: black;
+	border-color: #388bff #ccc #fff;
+	background: white;
+
+}
+.conter {
+	width: 100%;
+	margin: 10px 5px; 
+}
+.conter .cont{
+	float: left;
+	width: 120px;
+	margin-right: 15px;
+}
+.conter .cont img {
+	width: 100%;
+}
+.conter .cont:nth-child(4n){
+	margin-right: 0;
+}
+.conter .cont p {
+	text-align: center;
+	white-space: nowrap; 
+	overflow:hidden;
+	line-height: 20px; 
+	text-overflow:ellipsis;
+	font-size: 12px;
+}
+.conter .namer{
+	color: rgb(0,0,204);
+}
+
+.page{
+	padding:20px 0; 
+	width: 100%;
+	margin-left:30%;
+	overflow: hidden; 
+}
+.page .page-item{
+
+	display: block;
+	float: left;
+	padding: 0 5px;
+	margin: 0 5px;
+	width: 15px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #ccc; 
+	color: rgb(0,0,204);
+}
+.page .page-item.active{
+	border:none;
+	color: black;
+
+}
+.page .page-item:hover{
+	border-color: rgb(90,159,241);
+}
